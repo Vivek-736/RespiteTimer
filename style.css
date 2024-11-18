@@ -1,0 +1,48 @@
+body {
+  background: radial-gradient(125% 125% at 50% 10%, #000 40%, #63e 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: "Courier", monospace;
+  overflow: hidden;
+}
+
+h1 {
+  color: #9bdeac;
+  font-size: 50px;
+  margin-top: -50px;
+}
+
+#timer {
+  font-size: 35px;
+  color: white;
+  background-color: #e7305b;
+  padding: 20px;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.button-container {
+  display: flex;
+}
+
+.button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 1rem;
+  background: linear-gradient(to bottom left, #9bdeac, #00ffff);
+}
+
+#check-marks {
+  color: #9bdeac;
+  font-size: 20px;
+}
